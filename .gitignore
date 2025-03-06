@@ -1,0 +1,39 @@
+# Ignore the virtual environment
+venv/
+.env
+.envrc
+.venv/
+
+# Ignore Python compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ignore Jupyter Notebook checkpoints (if using Jupyter)
+.ipynb_checkpoints/
+
+# Ignore logs and temporary files
+*.log
+*.out
+*.pid
+*.lock
+*.tmp
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+*.bak
+
+# Ignore VS Code settings (if using VS Code)
+.vscode/
+
+# Ignore Python packaging files
+*.egg-info/
+dist/
+build/
+
+# Ignore Hadoop/MapReduce temporary files (if applicable)
+_output/
+.hadoop/
